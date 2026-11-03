@@ -103,14 +103,14 @@ export function startAnimations() {
     .add(hero, '-=.35')
 
   // Reveals: play once, then hand the element back to CSS
-  const reveal = (el, delay = 0) =>
+  const reveal = (el, delay = 0, duration = 0.85, rise = 44) =>
     gsap.fromTo(
       el,
-      { y: 44, opacity: 0 },
+      { y: rise, opacity: 0 },
       {
         y: 0,
         opacity: 1,
-        duration: 0.85,
+        duration,
         delay,
         ease: 'power3.out',
         clearProps: 'transform,opacity',
@@ -119,7 +119,7 @@ export function startAnimations() {
     )
   $$('[data-r]').forEach((el) => reveal(el))
   $$('.sc').forEach((el, i) => reveal(el, (i % 4) * 0.08))
-  $$('.tp').forEach((el, i) => reveal(el, (i % 6) * 0.04))
+  $$('.tp').forEach((el, i) => reveal(el, (i % 6) * 0.015, 0.4, 16))
 
   gsap.fromTo(
     '#car',
@@ -161,8 +161,6 @@ export function startAnimations() {
   })
 
   // Marquees loop and lean with scroll speed
-  gsap.to('#mq1', { xPercent: -50, duration: 30, ease: 'none', repeat: -1 })
-  gsap.to('#mq2', { xPercent: -50, duration: 30, ease: 'none', repeat: -1 })
   const skew = gsap.quickTo(gsap.utils.toArray('.mq div'), 'skewX', { duration: 0.5, ease: 'power3' })
   ScrollTrigger.create({
     onUpdate: (s) => skew(-s.direction * Math.min(Math.abs(s.getVelocity()) / 500, 3)),
