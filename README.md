@@ -25,7 +25,7 @@ Built with **Vue 3**, **Vite** and **GSAP**.
 | HR & Employee Management System | Vue, Laravel, Tailwind CSS, Figma |
 | Children’s Training & Booking Platform | Nuxt, Supabase, Tailwind CSS, Figma |
 | Barangay Management System | Vue, Laravel, Tailwind CSS, Figma |
-| Hydrogen Man Solutions ([live](https://hydrogenmansolutions.com/)) | WordPress |
+| Hydrogen Man Solutions ([live](https://hydrogenmansolutions.com/)) | WordPress, Elementor, WooCommerce |
 | Ayahtek ([live](https://ayahtek.com/)) | WordPress |
 | LiftNow PH ([live](https://liftnowph.com/)) | WordPress |
 

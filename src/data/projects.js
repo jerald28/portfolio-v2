@@ -254,7 +254,9 @@ export const projects = [
     "category": "E-commerce · WordPress",
     "summary": "Online store for hydrogen water systems and wellness products, with a shop, product pages, cart and checkout, plus wellness education and customer care pages.",
     "tags": [
-      "WordPress"
+      "WordPress",
+      "Elementor",
+      "WooCommerce"
     ],
     "live": "https://hydrogenmansolutions.com/",
     "cover": "images/projects/hydrogenman/cover.jpg",
@@ -271,7 +273,38 @@ export const projects = [
       "Customer Care: FAQs, shipping, returns, warranty",
       "Responsive on desktop and mobile"
     ],
-    "screenshots": []
+    "screenshots": [
+      {
+        "src": "images/projects/hydrogenman/desktop_1.jpg",
+        "caption": "Desktop · part 1 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/hydrogenman/desktop_2.jpg",
+        "caption": "Desktop · part 2 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/hydrogenman/desktop_3.jpg",
+        "caption": "Desktop · part 3 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/hydrogenman/desktop_4.jpg",
+        "caption": "Desktop · part 4 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/hydrogenman/mobile_1.jpg",
+        "caption": "Mobile · part 1 of 2",
+        "mobile": true
+      },
+      {
+        "src": "images/projects/hydrogenman/mobile_2.jpg",
+        "caption": "Mobile · part 2 of 2",
+        "mobile": true
+      }
+    ]
   },
   {
     "slug": "ayahtek",
@@ -296,7 +329,38 @@ export const projects = [
       "Consultation form with Schedule a call",
       "Responsive on desktop and mobile"
     ],
-    "screenshots": []
+    "screenshots": [
+      {
+        "src": "images/projects/ayahtek/desktop_1.jpg",
+        "caption": "Desktop · part 1 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/ayahtek/desktop_2.jpg",
+        "caption": "Desktop · part 2 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/ayahtek/desktop_3.jpg",
+        "caption": "Desktop · part 3 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/ayahtek/desktop_4.jpg",
+        "caption": "Desktop · part 4 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/ayahtek/mobile_1.jpg",
+        "caption": "Mobile · part 1 of 2",
+        "mobile": true
+      },
+      {
+        "src": "images/projects/ayahtek/mobile_2.jpg",
+        "caption": "Mobile · part 2 of 2",
+        "mobile": true
+      }
+    ]
   },
   {
     "slug": "liftnow",
@@ -321,6 +385,37 @@ export const projects = [
       "Order Now and contact links",
       "Responsive on desktop and mobile"
     ],
-    "screenshots": []
+    "screenshots": [
+      {
+        "src": "images/projects/liftnow/desktop_1.jpg",
+        "caption": "Desktop · part 1 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/liftnow/desktop_2.jpg",
+        "caption": "Desktop · part 2 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/liftnow/desktop_3.jpg",
+        "caption": "Desktop · part 3 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/liftnow/desktop_4.jpg",
+        "caption": "Desktop · part 4 of 4",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/liftnow/mobile_1.jpg",
+        "caption": "Mobile · part 1 of 2",
+        "mobile": true
+      },
+      {
+        "src": "images/projects/liftnow/mobile_2.jpg",
+        "caption": "Mobile · part 2 of 2",
+        "mobile": true
+      }
+    ]
   }
 ]
