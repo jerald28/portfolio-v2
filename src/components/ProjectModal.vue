@@ -73,7 +73,7 @@ onBeforeUnmount(() => document.removeEventListener('keydown', onKey))
           </p>
           <p v-for="(t, i) in project.description" :key="i">{{ t }}</p>
           <h4>Role</h4>
-          <p>{{ ROLE }}</p>
+          <p>{{ project.role || ROLE }}</p>
           <h4>Stack</h4>
           <div class="tags"><span v-for="t in project.tags" :key="t">{{ t }}</span></div>
           <h4>Key features</h4>

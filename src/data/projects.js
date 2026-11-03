@@ -310,12 +310,13 @@ export const projects = [
   {
     "slug": "ayahtek",
     "title": "Ayahtek",
-    "category": "Company Website · WordPress",
+    "category": "Company Website · WordPress · Collaborator",
     "summary": "Company website for a tech studio serving governments, schools and businesses, covering services, products, case studies, careers and a consultation form.",
     "tags": [
       "WordPress",
       "Elementor"
     ],
+    "role": "Collaborator",
     "live": "https://ayahtek.com/",
     "cover": "images/projects/ayahtek/cover.jpg",
     "description": [
@@ -367,12 +368,13 @@ export const projects = [
   {
     "slug": "liftnow",
     "title": "LiftNow PH",
-    "category": "Landing Page · WordPress",
+    "category": "Landing Page · WordPress · Collaborator",
     "summary": "One-page site for a bottled water brand whose profits fund scholarships for Filipino students, with the scholarship story, partners and ways to contribute.",
     "tags": [
       "WordPress",
       "Elementor"
     ],
+    "role": "Collaborator",
     "live": "https://liftnowph.com/",
     "cover": "images/projects/liftnow/cover.jpg",
     "description": [
