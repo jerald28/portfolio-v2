@@ -20,7 +20,7 @@ Built with **Vue 3**, **Vite** and **GSAP**.
 
 | Project | Stack |
 | --- | --- |
-| Elvion: Natural Skincare E-Commerce | WordPress, Elementor, WooCommerce |
+| Elvion: Natural Skincare E-Commerce ([live](https://elvion.ayahtek.com/)) | WordPress, Elementor, WooCommerce |
 | Pet Booking Website & Management System | Nuxt, Laravel, Tailwind CSS, Figma |
 | HR & Employee Management System | Vue, Laravel, Tailwind CSS, Figma |
 | Children’s Training & Booking Platform | Nuxt, Supabase, Tailwind CSS, Figma |

@@ -12,6 +12,7 @@ export const projects = [
       "Elementor",
       "WooCommerce"
     ],
+    "live": "https://elvion.ayahtek.com/",
     "cover": "images/projects/elvion/cover.jpg",
     "description": [
       "Elvion is an e-commerce website for a natural, handmade soap brand. The goal was to make a gentle, botanical brand feel premium online while keeping it simple to browse and buy.",
