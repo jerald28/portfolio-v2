@@ -68,6 +68,9 @@ onBeforeUnmount(() => document.removeEventListener('keydown', onKey))
         <template v-if="project">
           <img :src="asset(project.cover)" :alt="project.title" />
           <h2>{{ project.title }}</h2>
+          <p v-if="project.live">
+            <a class="btn pri" :href="project.live" target="_blank" rel="noopener">Live preview <AppIcon name="arrow" /></a>
+          </p>
           <p v-for="(t, i) in project.description" :key="i">{{ t }}</p>
           <h4>Role</h4>
           <p>{{ ROLE }}</p>
@@ -77,7 +80,7 @@ onBeforeUnmount(() => document.removeEventListener('keydown', onKey))
           <ul>
             <li v-for="f in project.features" :key="f">{{ f }}</li>
           </ul>
-          <h4>Screenshots</h4>
+          <h4 v-if="project.screenshots.length">Screenshots</h4>
           <figure v-for="(s, i) in desktopShots" :key="s.src">
             <figcaption>{{ s.caption }}</figcaption>
             <img loading="lazy" :src="asset(s.src)" :alt="project.title + ' screenshot ' + (i + 1)" />

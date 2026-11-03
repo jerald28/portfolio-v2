@@ -247,5 +247,80 @@ export const projects = [
         "mobile": true
       }
     ]
+  },
+  {
+    "slug": "hydrogenman",
+    "title": "Hydrogen Man Solutions",
+    "category": "E-commerce · WordPress",
+    "summary": "Online store for hydrogen water systems and wellness products, with a shop, product pages, cart and checkout, plus wellness education and customer care pages.",
+    "tags": [
+      "WordPress"
+    ],
+    "live": "https://hydrogenmansolutions.com/",
+    "cover": "images/projects/hydrogenman/cover.jpg",
+    "description": [
+      "Hydrogen Man Solutions sells hydrogen and terahertz-enhanced water products, along with beauty and home wellness items. The site needed to explain a technical product simply and make it easy to buy.",
+      "The store covers hydrogen water dispensers, vending systems, bottles and filters, plus beauty items like hydrogen eye and steam masks. Product pages show monthly installment pricing, a Best Sellers section highlights top products, and checkout supports card payments.",
+      "Supporting pages explain the technology, share wellness guides and articles, and cover FAQs, shipping, returns and the 1-year replacement warranty."
+    ],
+    "features": [
+      "Shop with product pages, cart and secure checkout",
+      "Monthly installment pricing",
+      "Best Sellers section",
+      "Our Technology and Wellness Education pages",
+      "Customer Care: FAQs, shipping, returns, warranty",
+      "Responsive on desktop and mobile"
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "ayahtek",
+    "title": "Ayahtek",
+    "category": "Company Website · WordPress",
+    "summary": "Company website for a tech studio serving governments, schools and businesses, covering services, products, case studies, careers and a consultation form.",
+    "tags": [
+      "WordPress"
+    ],
+    "live": "https://ayahtek.com/",
+    "cover": "images/projects/ayahtek/cover.jpg",
+    "description": [
+      "Ayahtek is a tech company with offices in Singapore and Pasig that builds digital solutions for governments, schools and private businesses, under the line “Simplifying Digital Solutions”.",
+      "The site presents its services (custom software and web apps, website design, mobile apps, e-commerce and eKYC identity verification) and its own products: Empleo, CoolHub and Siklab.",
+      "Case studies, templates, careers and an about page round out the site, backed by cloud and school partner logos. A consultation form with Schedule a call and View our projects buttons turns visitors into leads."
+    ],
+    "features": [
+      "Services and products overview",
+      "Case studies and templates",
+      "Careers and about pages",
+      "Partner and client logos",
+      "Consultation form with Schedule a call",
+      "Responsive on desktop and mobile"
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "liftnow",
+    "title": "LiftNow PH",
+    "category": "Landing Page · WordPress",
+    "summary": "One-page site for a bottled water brand whose profits fund scholarships for Filipino students, with the scholarship story, partners and ways to contribute.",
+    "tags": [
+      "WordPress"
+    ],
+    "live": "https://liftnowph.com/",
+    "cover": "images/projects/liftnow/cover.jpg",
+    "description": [
+      "LiftNow PH, based in Los Baños, Laguna, sells LIFT bottled drinking water and uses its profits to fund scholarships for Filipino students.",
+      "The one-page site tells that story in order: the brand and its 9-stage filtration, the scholarship program with scholar profiles and funding goals, partner testimonials and logos in the Game Changer section, and how to help.",
+      "Visitors can contribute by ordering water, pledging a case for a donation drive, or subscribing monthly as a partner. Order Now buttons link to the brand's Facebook page, and contact details close the page."
+    ],
+    "features": [
+      "Single-page layout with anchor navigation",
+      "Scholarship program and scholar profiles",
+      "Partner testimonials and logos",
+      "Three ways to contribute",
+      "Order Now and contact links",
+      "Responsive on desktop and mobile"
+    ],
+    "screenshots": []
   }
 ]

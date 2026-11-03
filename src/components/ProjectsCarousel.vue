@@ -135,6 +135,7 @@ function onRailClick(e) {
     moved = false
     return
   }
+  if (e.target.closest('a.lv')) return // live preview opens the site, not the case study
   const card = e.target.closest('.pc')
   if (!card) return
   tx = centerOf(cards.indexOf(card))
@@ -208,7 +209,10 @@ onBeforeUnmount(() => {
             <h3>{{ p.title }}</h3>
             <p>{{ p.summary }}</p>
             <div class="tags"><span v-for="t in p.tags" :key="t">{{ t }}</span></div>
-            <span class="more">View case study <AppIcon name="arrow" /></span>
+            <div class="pfoot">
+              <span class="more">View case study <AppIcon name="arrow" /></span>
+              <a v-if="p.live" class="lv" :href="p.live" target="_blank" rel="noopener">Live preview <AppIcon name="arrow" /></a>
+            </div>
           </div>
         </article>
       </template>
