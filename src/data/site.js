@@ -131,7 +131,7 @@ export const about = {
     'I’m a UI/UX Developer who designs in Figma and builds in code, so the interface you approve is the one that ships. I care about clean layouts, responsive behavior and experiences that feel easy to use.',
   facts: [
     { value: 4, suffix: '+', label: 'Years designing and building' },
-    { value: 8, suffix: '', label: 'Featured projects' },
+    { value: 9, suffix: '', label: 'Featured projects' },
     { value: 22, suffix: '', label: 'Tools in my stack' },
   ],
 }

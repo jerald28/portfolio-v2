@@ -420,5 +420,57 @@ export const projects = [
         "mobile": true
       }
     ]
+  },
+  {
+    "slug": "empleo",
+    "title": "Empleo",
+    "category": "Landing Page",
+    "summary": "Landing page for Empleo, an AI-powered HR platform that makes attendance and payroll simple and affordable for growing Philippine businesses.",
+    "tags": [
+      "Landing page"
+    ],
+    "live": "https://empleospace.com/",
+    "cover": "images/projects/empleo/cover.jpg",
+    "description": [
+      "Empleo is an all-in-one HR platform for small and growing businesses, from the very first employee. The landing page introduces it with the line “Attendance and payroll, made simple and affordable.”",
+      "The hero pairs that message with laptop and phone mockups of the app, a Become a Pilot User button and a Get it on Google Play badge, plus three trust points. A partners strip follows, then the features: attendance, leave management, team and people, payroll, reports, memos and announcements, cash advance, loans and Ask Pleo, an AI assistant.",
+      "A Why Empleo section, a three-step How it works (create your account, onboard your team, start managing), a pilot program sign-up, a Request a Demo card and a newsletter footer finish the page."
+    ],
+    "features": [
+      "Hero with app mockups and Google Play badge",
+      "Partner logos",
+      "Feature grid covering HR, payroll and AI assistance",
+      "Why Empleo benefits list",
+      "3-step How it works",
+      "Pilot program and demo request calls to action",
+      "Responsive on desktop and mobile"
+    ],
+    "screenshots": [
+      {
+        "src": "images/projects/empleo/desktop_1.jpg",
+        "caption": "Desktop · part 1 of 3",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/empleo/desktop_2.jpg",
+        "caption": "Desktop · part 2 of 3",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/empleo/desktop_3.jpg",
+        "caption": "Desktop · part 3 of 3",
+        "mobile": false
+      },
+      {
+        "src": "images/projects/empleo/mobile_1.jpg",
+        "caption": "Mobile · part 1 of 2",
+        "mobile": true
+      },
+      {
+        "src": "images/projects/empleo/mobile_2.jpg",
+        "caption": "Mobile · part 2 of 2",
+        "mobile": true
+      }
+    ]
   }
 ]

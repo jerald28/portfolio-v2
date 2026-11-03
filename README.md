@@ -28,6 +28,7 @@ Built with **Vue 3**, **Vite** and **GSAP**.
 | Hydrogen Man Solutions ([live](https://hydrogenmansolutions.com/)) | WordPress, Elementor, WooCommerce |
 | Ayahtek ([live](https://ayahtek.com/)) | WordPress, Elementor |
 | LiftNow PH ([live](https://liftnowph.com/)) | WordPress, Elementor |
+| Empleo ([live](https://empleospace.com/)) | Landing page |
 
 Role on each: Figma design and prototyping + front-end development.
 
