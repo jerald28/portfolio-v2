@@ -312,7 +312,8 @@ export const projects = [
     "category": "Company Website · WordPress",
     "summary": "Company website for a tech studio serving governments, schools and businesses, covering services, products, case studies, careers and a consultation form.",
     "tags": [
-      "WordPress"
+      "WordPress",
+      "Elementor"
     ],
     "live": "https://ayahtek.com/",
     "cover": "images/projects/ayahtek/cover.jpg",
@@ -368,7 +369,8 @@ export const projects = [
     "category": "Landing Page · WordPress",
     "summary": "One-page site for a bottled water brand whose profits fund scholarships for Filipino students, with the scholarship story, partners and ways to contribute.",
     "tags": [
-      "WordPress"
+      "WordPress",
+      "Elementor"
     ],
     "live": "https://liftnowph.com/",
     "cover": "images/projects/liftnow/cover.jpg",

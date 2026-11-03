@@ -26,8 +26,8 @@ Built with **Vue 3**, **Vite** and **GSAP**.
 | Children’s Training & Booking Platform | Nuxt, Supabase, Tailwind CSS, Figma |
 | Barangay Management System | Vue, Laravel, Tailwind CSS, Figma |
 | Hydrogen Man Solutions ([live](https://hydrogenmansolutions.com/)) | WordPress, Elementor, WooCommerce |
-| Ayahtek ([live](https://ayahtek.com/)) | WordPress |
-| LiftNow PH ([live](https://liftnowph.com/)) | WordPress |
+| Ayahtek ([live](https://ayahtek.com/)) | WordPress, Elementor |
+| LiftNow PH ([live](https://liftnowph.com/)) | WordPress, Elementor |
 
 Role on each: Figma design and prototyping + front-end development.
 
