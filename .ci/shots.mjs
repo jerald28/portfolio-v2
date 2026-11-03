@@ -1,7 +1,7 @@
 import { chromium } from 'playwright'
 import sharp from 'sharp'
 import fs from 'fs'
-const SITES = [['hydrogenman', 'https://hydrogenmansolutions.com/'], ['ayahtek', 'https://ayahtek.com/'], ['liftnow', 'https://liftnowph.com/']]
+const SITES = [['empleo', 'https://empleospace.com/']]
 const b = await chromium.launch()
 const log = []
 async function prep(pg) {
@@ -32,7 +32,8 @@ for (const [slug, url] of SITES) {
       const top = i * segH, h = Math.min(segH, H - top); if (h < 300) break
       await sharp(full).extract({ left: 0, top, width: meta.width, height: h }).resize({ width: 1200 }).jpeg({ quality: 72, mozjpeg: true }).toFile(`${dir}/desktop_${i + 1}.jpg`)
     }
-    log.push(`${slug}: desktop height ${H}, ${n} parts, title=${await pg.title()}`)
+    const tech = await pg.evaluate(() => { const h = document.documentElement.outerHTML; const g = (document.querySelector('meta[name=generator]') || {}).content || ''; const f = []; if (window.__NEXT_DATA__ || h.includes('/_next/')) f.push('Next.js'); if (window.__NUXT__ || h.includes('/_nuxt/')) f.push('Nuxt'); if (h.includes('data-v-') || window.__VUE__) f.push('Vue'); if (document.querySelector('[data-reactroot]') || h.includes('react')) f.push('React?'); if (h.includes('wp-content')) f.push('WordPress'); if (h.includes('framer')) f.push('Framer'); if (h.includes('webflow')) f.push('Webflow'); if (/\b(tw-|text-\[|bg-\[)/.test(h) || h.includes('tailwind')) f.push('Tailwind?'); if (h.includes('/assets/index-') ) f.push('Vite'); return g + ' | ' + f.join(',') + ' | scripts: ' + [...document.scripts].map(s => s.src).filter(Boolean).slice(0, 6).join(' ') })
+    log.push(`${slug}: desktop height ${H}, ${n} parts, title=${await pg.title()}, tech=${tech}`)
     await ctx.close()
     const m = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true })
     const mp = await m.newPage()
