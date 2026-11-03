@@ -3,7 +3,7 @@ import { ui } from '../store.js'
 import { sections } from '../data/site.js'
 
 // Tracks which section sits in the middle of the viewport and stores its id,
-// so the header and the side dots can highlight it.
+// so the header can highlight it.
 export function useActiveSection() {
   let io
   onMounted(() => {

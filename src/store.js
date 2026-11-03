@@ -1,7 +1,7 @@
 import { reactive } from 'vue'
 
 // Small shared state for UI pieces that talk to each other
-// (header, menu, side dots, case-study modal).
+// (header, menu, case-study modal).
 export const ui = reactive({
   activeId: 'top',
   menuOpen: false,

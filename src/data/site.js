@@ -12,7 +12,7 @@ export const contact = {
   cv: 'Jerald_Esguerra_CV.pdf',
 }
 
-// Order of sections on the page. Used by the nav, side dots and "Next" links.
+// Order of sections on the page. Used by the nav and "Next" links.
 export const sections = [
   { id: 'top', label: 'Intro' },
   { id: 'projects', label: 'Work' },
