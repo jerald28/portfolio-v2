@@ -81,7 +81,6 @@ export function startAnimations() {
     gsap
       .timeline({ defaults: { ease: 'power4.out' } })
       .fromTo('.hb', { y: -24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, clearProps: 'transform,opacity' }, 0)
-      .from('#cp', { y: 20, opacity: 0, duration: 0.7 }, 0.1)
       .from('[data-h]:not(h1)', { y: 30, opacity: 0, stagger: 0.1, duration: 0.8 }, 0.2)
       .from('.sp1 .w', { yPercent: 110, stagger: 0.06, duration: 1 }, 0.15)
       .from('.ph .im', { clipPath: 'inset(0 0 100% 0)', duration: 1.2, ease: 'power4.inOut' }, 0.2)

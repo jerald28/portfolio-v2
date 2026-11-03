@@ -1,10 +1,8 @@
 <script setup>
 import { contact } from '../data/site.js'
 import { asset } from '../store.js'
-import { useCopyEmail } from '../composables/useCopy.js'
 import AppIcon from './AppIcon.vue'
 
-const { copied, copy } = useCopyEmail()
 const headline = 'Interfaces designed in Figma, built for the web.'.split(' ')
 const nameLines = ['Jerald', 'Esguerra']
 </script>
@@ -12,13 +10,6 @@ const nameLines = ['Jerald', 'Esguerra']
 <template>
   <section class="hero">
     <div class="wrap">
-      <div style="position: relative; display: inline-block">
-        <button id="cp" class="mail" type="button" data-mag @click="copy">
-          <span>Get in touch</span><b>{{ contact.email }}</b><span class="ib"><AppIcon name="copy" /></span>
-        </button>
-        <span id="ts" class="toast" :class="{ on: copied }" role="status">Copied to clipboard!</span>
-      </div>
-
       <div class="hg">
         <div>
           <p class="mono" data-h>UI/UX Developer · San Juan City, Philippines</p>
