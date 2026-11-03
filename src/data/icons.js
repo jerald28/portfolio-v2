@@ -1,0 +1,31 @@
+// Inline SVG icons. General icons follow the Lucide set (as on Iconify);
+// brand marks are simplified vector drawings.
+// Each entry: [svgInnerMarkup, isStrokeIcon]
+export const ICONS = {
+arrow:['<path d="M7 17 17 7M8 7h9v9"/>',1],mail:['<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',1],
+phone:['<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>',1],
+pin:['<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>',1],copy:['<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>',1],check:['<path d="m5 12 5 5L20 7"/>',1],code:['<path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/>',1],download:['<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>',1],star:['<path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.3-6.2 3.3L7 14.2 2 9.3l6.9-1z"/>',1],pen:['<path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',1],
+menu:['<path d="M4 7h16M4 12h16M4 17h16"/>',1],x:['<path d="M6 6l12 12M18 6 6 18"/>',1],plus:['<path d="M12 5v14M5 12h14"/>',1],moon:['<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/>',1],
+sun:['<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',1],
+github:['<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/>',1],
+linkedin:['<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>',1],
+html:['<path d="M3 2l1.6 18L12 22l7.4-2L21 2z" fill="#E34F26"/><path d="M12 4v16.2l5.9-1.6L19.2 4z" fill="#EF652A"/><text x="12" y="15" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" font-family="Arial">5</text>'],
+css:['<path d="M3 2l1.6 18L12 22l7.4-2L21 2z" fill="#1572B6"/><path d="M12 4v16.2l5.9-1.6L19.2 4z" fill="#33A9DC"/><text x="12" y="15" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" font-family="Arial">3</text>'],
+js:['<rect x="2" y="2" width="20" height="20" rx="3" fill="#F7DF1E"/><text x="14.5" y="19" text-anchor="middle" font-size="9.5" font-weight="700" fill="#111" font-family="Arial">JS</text>'],
+vue:['<path d="M2 3h4.6L12 12.4 17.4 3H22L12 20.5z" fill="#41B883"/><path d="M6.6 3h3.2L12 6.8 14.2 3h3.2L12 12.4z" fill="#35495E"/>'],
+react:['<g fill="none" stroke="#61DAFB" stroke-width="1.2"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/></g><circle cx="12" cy="12" r="1.9" fill="#61DAFB"/>'],
+nuxt:['<path d="M1 20 9 6l8 14z" fill="#00DC82"/><path d="M13 20l4.5-7.5L22 20z" fill="#00DC82" opacity=".7"/>'],
+tailwind:['<path fill="#38BDF8" d="M12 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12 4.8zM6 12c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C8.337 17.8 9.7 19.2 12.7 19.2c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6 12z"/>'],
+bootstrap:['<rect x="2" y="2" width="20" height="20" rx="5" fill="#7952B3"/><text x="12" y="17.5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="Arial">B</text>'],
+shadcn:['<rect x="2" y="2" width="20" height="20" rx="5" fill="currentColor"/><path d="M17 6 6 17M18 12l-6 6" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round"/>'],
+figma:['<path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" fill="#F24E1E"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12z" fill="#FF7262"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" fill="#A259FF"/><circle cx="15.5" cy="12.5" r="3.5" fill="#1ABCFE"/><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" fill="#0ACF83"/>'],
+canva:['<circle cx="12" cy="12" r="10" fill="#00C4CC"/><text x="12" y="16.6" text-anchor="middle" font-size="13" font-weight="700" fill="#fff" font-family="Arial">C</text>'],
+proto:['<circle cx="12" cy="12" r="10"/><path d="m10 8 6 4-6 4z"/>',1],wire:['<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',1],
+laravel:['<rect x="2" y="2" width="20" height="20" rx="5" fill="#FF2D20"/><text x="12" y="17" text-anchor="middle" font-size="13" font-weight="700" fill="#fff" font-family="Arial">L</text>'],
+supabase:['<path d="M13.3 2 4 13.6c-.5.6 0 1.4.7 1.4H11l-.3 7 9.3-11.6c.5-.6 0-1.4-.7-1.4H13z" fill="#3ECF8E"/>'],
+wordpress:['<circle cx="12" cy="12" r="10" fill="#21759B"/><text x="12" y="16.4" text-anchor="middle" font-size="12" font-weight="700" fill="#fff" font-family="Arial">W</text>'],
+elementor:['<circle cx="12" cy="12" r="10" fill="#92003B"/><path fill="#fff" d="M8.5 7h2v10h-2zM12.5 7h3.5v2h-3.5zM12.5 11h3.5v2h-3.5zM12.5 15h3.5v2h-3.5z"/>'],
+woo:['<rect x="1.5" y="5" width="21" height="12" rx="4" fill="#7F54B3"/><path d="M8 17l-1.5 3.5L11 17z" fill="#7F54B3"/><text x="12" y="14" text-anchor="middle" font-size="7.5" font-weight="700" fill="#fff" font-family="Arial">Woo</text>'],
+git:['<path d="M12 1.8 22.2 12 12 22.2 1.8 12z" fill="#F05032"/><g stroke="#fff" stroke-width="1.6" fill="#fff"><path d="M12 8v6M12 11l3 3" fill="none"/><circle cx="12" cy="7.5" r="1.4"/><circle cx="12" cy="15" r="1.4"/><circle cx="15.2" cy="14.2" r="1.4"/></g>'],
+trello:['<rect x="2" y="2" width="20" height="20" rx="4" fill="#0079BF"/><rect x="6" y="6" width="4.5" height="11" rx="1" fill="#fff"/><rect x="13.5" y="6" width="4.5" height="6.5" rx="1" fill="#fff"/>'],
+agile:['<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M8 16H3v5"/>',1]}
