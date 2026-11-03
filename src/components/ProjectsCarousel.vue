@@ -88,6 +88,10 @@ function go(delta) {
 
 function onPointerDown(e) {
   if (e.target.closest('button')) return
+  if (e.pointerType === 'mouse') {
+    if (e.button !== 0) return
+    e.preventDefault() // stop native link/image drag and text selection from stealing the gesture
+  }
   dragging = true
   moved = false
   startX = lastX = e.clientX
@@ -191,6 +195,7 @@ onBeforeUnmount(() => {
     aria-roledescription="carousel"
     aria-label="Featured projects"
     @pointerdown="onPointerDown"
+    @dragstart.prevent
     @pointermove="onPointerMove"
     @pointerup="onPointerUp"
     @pointercancel="onPointerUp"

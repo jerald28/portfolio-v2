@@ -188,3 +188,4 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
 .ring.big{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(255,255,255,.18)}
 .mq>div{gap:0}.mq>div>*{margin-right:40px}@media (max-width:520px){.mq>div>*{margin-right:26px}}
 .pfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:8px}.pfoot .more{margin-top:0}.lv{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;border:1px solid var(--line);font:600 14px var(--hd);text-decoration:none;color:var(--fg);transition:background .2s,color .2s,border-color .2s}.lv:hover{background:var(--hi);border-color:var(--hi);color:#0c0c0c}
+.car a,.car img{-webkit-user-drag:none;user-drag:none}
