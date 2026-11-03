@@ -11,10 +11,9 @@ const { copied, copy } = useCopyEmail()
   <section id="contact" class="sec close">
     <div class="wrap" data-r>
       <p class="mono">Let’s work together</p>
-      <h2>Let’s build something <em>great</em> together.</h2>
+      <h2><span class="hl">Got an idea?</span> <span class="hl">Let’s design it</span> <span class="hl">and <em>ship</em> it.</span></h2>
       <div class="cta">
-        <a class="btn pri" :href="'mailto:' + contact.email" data-mag>Get in touch <AppIcon name="arrow" /></a>
-        <button class="btn" type="button" data-copy data-mag @click="copy">
+        <button class="btn pri" type="button" data-copy data-mag @click="copy">
           <span>{{ copied ? 'Copied!' : 'Copy email' }}</span> <AppIcon name="copy" />
         </button>
         <a class="btn" :href="asset(contact.cv)" download="Jerald_Esguerra_CV.pdf" data-cv data-mag
